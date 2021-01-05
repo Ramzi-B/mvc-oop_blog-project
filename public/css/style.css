@@ -1,0 +1,77 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Teko:700");
+
+/* Variables */
+:root {
+    --bkg-primary: #263238;
+    --text-color: #586f7c;
+    --title-color: #cfd8dc;
+}
+
+html {
+    height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    font: normal 1.8rem 'Roboto', Helvetica, Arial, sans-serif;
+    background: var(--bkg-primary);
+    color: var(--text-color);
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.content-section {
+    padding-top: 5em;
+}
+
+h1,
+h2,
+h3 {
+    font: 700 4rem 'Teko', Helvetica, Arial, sans-serif;
+    margin: 0 0 2em;
+    text-transform: uppercase;
+    color: #b8dbd9;
+}
+
+p {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+}
+
+footer {
+    position: absolute;
+    padding: .5em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer p {
+    text-align: center;    
+}

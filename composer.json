@@ -1,0 +1,19 @@
+{
+    "name": "hackawax/mvc-oop_blog-project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ramzi-B",
+            "email": "Ramzi.B@gmx.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require-dev": {
+        "filp/whoops": "^2.9",
+        "symfony/var-dumper": "^5.2"
+    }
+}
