@@ -1,6 +1,7 @@
 {
     "name": "hackawax/mvc-oop_blog-project",
     "license": "MIT",
+    "description": "project blog OOP MVC",
     "authors": [
         {
             "name": "Ramzi-B",
